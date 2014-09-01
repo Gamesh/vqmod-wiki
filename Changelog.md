@@ -87,7 +87,7 @@
   * Deprecated "$useCache"
 
 ###v2.1.6 - 2012-MAR-15 - Qphoria_at_gmail.com
-  * Added "error" attribute to the {{{<file>}}} tag
+  * Added "error" attribute to the `<file>` tag
   * Moved main vQmod class to the top of the file to make version number easier to find
 
 ###v2.1.5 - 2011-NOV-10 - Qphoria_at_gmail.com
@@ -122,7 +122,7 @@
 
 ###v2.0 - 2011-SEP-14 - Jay_at_jaygilford.com
   * Complete Code Rewrite by JayG to be more object based
-  * New "log" attribute for {{{<operation error="abort|skip|log">}}} to skip and log.
+  * New "log" attribute for `<operation error="abort|skip|log">` to skip and log.
  
 ###v1.2.3 - 2011-JUN-21 - Qphoria_at_gmail.com
   * Fixed index explode issue per JayGs fix
@@ -156,7 +156,7 @@
 
 ###v1.0.7 - 2011-JAN-18 - Qphoria_at_gmail.com
   * Default directory structure changed to put everything inside the /vqmod/ folder
-  * xml files are now moved to /vqmod/xml/{{{*}}}.xml
+  * xml files are now moved to /vqmod/xml/`*`.xml
   * Redesigned the construct to be simpler
   * Construct no longer requires a path or log option
   * New init() function handles initialization
