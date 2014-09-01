@@ -42,6 +42,6 @@ After the initial class load, the mod can actually use a script to mod itself in
 <p>Performance has been my concern from the first idea of this project. But the way the code is designed has reduced any effect on performance. We've got over 30 vQmod scripts on our test sites with page times and have seen absolutely no performance change when enabled or disabled. Of course any script that causes a change to db queries or has code that takes longer will be a factor but that would not be a vQmod performance issue. When the actual source files are parsed, only the files that have changes need to parse the xml scripts. Additionally, multiple performance tips and tweaks have been added as well as an optional "useCache" feature that allows you reload the changes made already from the vqcache files. All in all, performance suprisingly does not appear to be a factor at all.</p>
 
 <h3><u><strong>Get Started Now</strong></u></h3>
-  * [http://code.google.com/p/vqmod/wiki/Install_OpenCart Install]
-  * [http://code.google.com/p/vqmod/wiki/Scripting Scripting]
-  * [http://code.google.com/p/vqmod/wiki/Examples Examples]
+  * [[Install]]
+  * [[Scripting]]
+  * [[Examples]]
