@@ -1,1 +1,1 @@
-https://github.com/vqmod/vqmod/releases
+[Download Now](https://github.com/vqmod/vqmod/releases)
