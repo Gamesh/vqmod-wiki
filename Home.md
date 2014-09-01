@@ -7,7 +7,7 @@
 
 ##[Download Now](https://github.com/vqmod/vqmod/releases)
 
-<h3><u><strong>Looking for Install/Upgrade help? Click the Wiki link.</strong></u></h3>
+<h4><u><strong>Looking for Install/Upgrade help? Click the Install link on the sidebar to the right.</strong></u></h3>
 
 
 <h3><u><strong>Welcome to vQmod™</strong></u></h3>
