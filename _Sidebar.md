@@ -1,1 +1,0 @@
-[Download Now](https://github.com/vqmod/vqmod/releases)
