@@ -2,7 +2,7 @@
 
 
 ##New Install Video Tutorial (OpenCart)
-<wiki:video url="https://www.youtube.com/watch?v=ezS1jWoMmjc"/>
+[Youtube Install Video](https://www.youtube.com/watch?v=ezS1jWoMmjc)
 
 ##Installing on OpenCart
 
