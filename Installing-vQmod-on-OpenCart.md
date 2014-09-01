@@ -54,7 +54,7 @@ Done!
 
 	// Startup
 	require_once(DIR_SYSTEM . 'startup.php');
-
+	
 	// Application Classes
 	require_once(DIR_SYSTEM . 'library/customer.php');
 	require_once(DIR_SYSTEM . 'library/currency.php');
