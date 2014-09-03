@@ -10,4 +10,4 @@ Here is an example that redirects the "admin" folder to a "backend" folder.
 	$replaces[] = array('~^admin\b~', 'backend'); // This replaces the admin folder name to backend
 	// END REPLACES //
 
-Be sure you keep the additional characters like ~ and ^ as those are important for proper name substitution.
+These are regex replaces so be sure you keep the additional characters like ~ and ^ as those are important for proper name matching.
