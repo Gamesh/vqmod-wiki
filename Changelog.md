@@ -2,6 +2,9 @@
 
 ##HISTORY
 
+###v2.5.1 - 2014-OCT-1 - Jay_at_jaygilford.com
+ * Fixed .htaccess security method to fix forbidden while trying to run the installer on some servers
+
 ###v2.5.0 - 2014-AUG-29 - Jay_at_jaygilford.com
  * Added caching of checked files to increase performance
  * Added error details of invalid XML files
