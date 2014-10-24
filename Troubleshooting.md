@@ -10,10 +10,12 @@ It is important to note that vQmod itself is _very_ rarely going to have any act
 *vQmod scripts don't seem to be working.*
 
 Check the following:
-  * Is the engine installed? Did you run the installer?
+  * Is the vQmod engine installed? Did you run the installer?
+  * Do you have the latest version from the [vqmod.com](http://vqmod.com) website?
   * If you recently upgraded opencart, you will need to re-run the vQmod installer. You must always re-run the vQmod installer after upgrading opencart as the index.php files are overwritten and must be re-modified with the vQmod code.
-  * Does the vqmod/vqcache folder have any files in it? If not then be sure you installed vQmod and check the vqcache folder permissions are 755 or 777.
-  * Check the vqmod/logs folder for any files and see where the script errors are.
+  * If you recently upgraded vQmod, you may need to re-run the vQmod installer again as sometimes it will update it's own code in the index.php.
+  * Does the vqmod/vqcache folder have any files in it? If not then be sure you installed vQmod and check the vqcache folder permissions are 755 or 775 or 777. Try each one until it works.
+  * Check the vqmod/logs folder for any files and see where the script errors are, then track down the author of the individual script and ask them for assistance.
 
 
 *I see an error on my site referring to ".../vqmod/vqcache/xxx.php"*
