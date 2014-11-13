@@ -19,6 +19,8 @@ vQmod works with OpenCart 1.4.x, 1.5.x, and OpenCart 2.0.x
       * If not sure which you need, first try 755. 
       * If you get errors about permissions, then try 777.
 
+NOTE: 777 permissions are dangerous and should only be used as a last resort. If your hosting requires this, consult your hosting to let them know this shouldn't be necessary
+
   4. Goto http://www.yoursite.com/vqmod/install 
 
   5. You should get a success message. If not, check permissions above and try again
