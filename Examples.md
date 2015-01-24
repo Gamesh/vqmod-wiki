@@ -12,8 +12,13 @@
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>Replace ABC with 123</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -29,6 +34,7 @@
 			</operation>
 		</file>
 	</modification>
+```
 
 *Output*
 
@@ -46,8 +52,13 @@
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>Before ABC, add 123</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -63,6 +74,7 @@
 			</operation>
 		</file>
 	</modification>
+```
 
 *Output*
 
@@ -82,8 +94,13 @@
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>After ABC, add 123</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -99,6 +116,7 @@
 			</operation>
 		</file>
 	</modification>
+```
 
 *Output*
 
@@ -120,8 +138,13 @@
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>After ABC, add 123 only if XYZ not in file</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -140,7 +163,7 @@
 			</operation>
 		</file>
 	</modification>
-
+```
 
 *Output*
 
@@ -165,8 +188,13 @@ Sometimes you require adding the same modification to a number of files at once.
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>Replace ABC with 123</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -182,6 +210,7 @@ Sometimes you require adding the same modification to a number of files at once.
 			</operation>
 		</file>
 	</modification>
+```
 
 *Output (all files)*
 
@@ -199,6 +228,7 @@ vQmod is limited to a single-line search, but you can use the "offset" attribute
 
 *Input*
 
+```php
 	public function index() {
 		$a = rand();
 		$b = rand();
@@ -207,12 +237,17 @@ vQmod is limited to a single-line search, but you can use the "offset" attribute
 			return false;
 		}
 	}
-
+```
 
 *Script*
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>Replace many lines with one</id>
 		<version>1.0</version>
 		<vqmver>2.X</vqmver>
@@ -232,15 +267,17 @@ vQmod is limited to a single-line search, but you can use the "offset" attribute
 			</operation>
 		</file>
 	</modification>
+```
 
 *Output*
 
+```php
 	public function index($arr = array()) {
 		foreach ($arr as $a) {
 			echo $a;
 	    	}
 	}
-	
+```	
 	
 	
 	

@@ -17,8 +17,13 @@ vQmod currently uses an xml formatted parser by default but other parsers can be
 
 A simple replace script example looks like this:
 
+```xml
 	<?xml version="1.0" encoding="UTF-8"?>
-	<modification>
+	<modification
+                xmlns="https://github.com/vqmod/vqmod"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd">
+                >
 		<id>Replace 123 with ABC</id>
 		<version>1.0.0</version>
 		<vqmver>2.5.0</vqmver>
@@ -36,6 +41,7 @@ A simple replace script example looks like this:
 			</operation>
 		</file>	
 	</modification>
+```
 
 This script simply changes the value of a variable of "myfile.php" from "123" to "ABC" before it gets included.
 
