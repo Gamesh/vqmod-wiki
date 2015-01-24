@@ -7,9 +7,9 @@
   2. Add the minimum required xml structure
 
 *Input*
-
+```php
 	$var = 'ABC';
-
+```
 *Script*
 
 ```xml
@@ -37,9 +37,9 @@
 ```
 
 *Output*
-
+```php
 	$var = '123';
-
+```
 ##"Before" Example
 
   1. Create a new text file and call it "before-demo.xml"
@@ -47,9 +47,9 @@
   2. Add the minimum required xml structure
 
 *Input*
-
+```php
 	$var = 'ABC';
-
+```
 *Script*
 
 ```xml
@@ -77,10 +77,10 @@
 ```
 
 *Output*
-
+```php
 	$var = '123';
 	$var = 'ABC';
-
+```
 
 
 "After" Example
@@ -89,9 +89,9 @@
 2. Add the minimum required xml structure
 
 *Input*
-
+```php
 	$var = 'ABC';
-
+```
 *Script*
 
 ```xml
@@ -119,10 +119,10 @@
 ```
 
 *Output*
-
+```php
 	$var = 'ABC';
 	$var = '123';
-
+```
 
 
 <`ignoreif`> tag Example (2.3.0+)
@@ -131,10 +131,10 @@
   2. Add the minimum required xml structure
 
 *Input*
-
+```php
 	$var = 'ABC';
 	$var2 = 'XYZ';
-
+```
 
 *Script*
 
@@ -166,10 +166,10 @@
 ```
 
 *Output*
-
+```php
 	$var = 'ABC';
 	$var2 = 'XYZ';
-
+```
 
 ##Multiple files and a base path example (2.3.0+)
 
@@ -182,9 +182,9 @@ Sometimes you require adding the same modification to a number of files at once.
   2. Add the minimum required xml structure
 
 *Input (all files)*
-
+```php
 	$var = 'ABC';
-
+```
 
 *Script*
 
@@ -213,9 +213,9 @@ Sometimes you require adding the same modification to a number of files at once.
 ```
 
 *Output (all files)*
-
+```php
 	$var = '123';
-
+```
 ##'Multi-line Replace' Example
 
 vQmod is limited to a single-line search, but you can use the "offset" attribute to _blindly_ blanket additional lines of code in the replace.
